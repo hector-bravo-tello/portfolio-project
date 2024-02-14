@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="banner">
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1" class="project-image">
+                <h3>Project 1 Title</h3>
+                <p>Short description of the project.</p>
+                <button class="btn view-project">Learn More</button>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2" class="project-image">
+                <h3>Project 2 Title</h3>
+                <p>Short description of the project.</p>
+                <button class="btn view-project">Learn More</button>
+            </div>
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="images/project3.jpg" alt="Project 3" class="project-image">
+                <h3>Project 3 Title</h3>
+                <p>Short description of the project.</p>
+                <button class="btn view-project">Learn More</button>
+            </div>
+            <!-- Add a modal outside your project list or at the end of your body -->
+            <div id="lightbox-modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modal-img">
+                <div id="caption"></div>
+            </div>
+            
+            <!-- Add more projects here -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
