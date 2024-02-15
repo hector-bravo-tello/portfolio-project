@@ -48,6 +48,10 @@ nav ul li a {
     height: auto;
 }
 
+.project img:hover {
+    cursor: pointer;
+  }
+
 .form-group {
     margin-bottom: 15px; /* Space out each form group */
 }
